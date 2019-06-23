@@ -30,3 +30,8 @@ npm test
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 # link
 [初期作成時にUnitTestが通らない](https://qiita.com/supaiku2452/items/972eb7e03414c695d033)
+
+# 調べたこと
+* npm install hoge --save-dev  => devDependencyに記述される　開発の時のみ使用
+* npm install hoge --save => dependencymに記述される　製品使用時に利用するときに使うオプション
+
